@@ -1,0 +1,23 @@
+import * as T from './three.module.js';
+import {makeProPhone} from './phone.js';
+const [motion,timing]=await Promise.all(['motion.json','timing.json'].map(x=>fetch(x).then(r=>r.json())));
+const W=1080,H=1920,out=document.querySelector('#output'),ctx=out.getContext('2d');
+function layer(name){const c=document.createElement('canvas');c.width=W;c.height=H;c.id=name;c.hidden=true;document.body.append(c);return {canvas:c,ctx:c.getContext('2d'),visible:true};}
+const bg=layer('background-layer'),pl=layer('phone-layer'),ty=layer('typography-layer');window.editableLayers={background:bg,phone:pl,typography:ty};
+const renderer=new T.WebGLRenderer({alpha:true,antialias:true,preserveDrawingBuffer:true});renderer.setSize(W,H);renderer.setClearColor(0,0);renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=.96;
+const scene=new T.Scene(),camera=new T.PerspectiveCamera(motion.fov,W/H,.1,100);const phone=await makeProPhone(renderer);scene.add(phone);window.editablePhone=phone;
+const studio=new T.Scene();studio.background=new T.Color(0x50555b);
+for(const [x,y,z,w,h,c] of [[-4,2,4,1.8,10,0xffffff],[4,1,2,1,9,0xd5e2ef],[0,5,1,7,1.5,0xffffff],[-1,-4,3,5,.8,0xcbd7e0]]){const m=new T.Mesh(new T.PlaneGeometry(w,h),new T.MeshBasicMaterial({color:c}));m.position.set(x,y,z);m.lookAt(0,0,0);studio.add(m);}
+const pm=new T.PMREMGenerator(renderer);scene.environment=pm.fromScene(studio,.045).texture;scene.add(new T.HemisphereLight(0xffffff,0x455365,1.5));const key=new T.DirectionalLight(0xffffff,3);key.position.set(-4,5,8);scene.add(key);const rim=new T.DirectionalLight(0xe0ecf8,1.7);rim.position.set(4,1,2);scene.add(rim);
+async function image(src){const im=new Image();im.src=src;await im.decode();return im;}
+const [plate,brand,line1,line2]=await Promise.all(['background','brand','line1','line2'].map(x=>image('./assets/'+x+'.png')));bg.ctx.drawImage(plate,0,0);
+const samples=motion.samples,anchor=motion.anchor_center,f=motion.focal_target_px;
+function sample(t){t=Math.max(0,Math.min(.8,t));const u=t*240,i=Math.min(samples.length-2,Math.floor(u)),a=samples[i],b=samples[i+1],v=u-i;return {dx:T.MathUtils.lerp(a[1],b[1],v),dy:T.MathUtils.lerp(a[2],b[2],v),z:T.MathUtils.lerp(a[3],b[3],v),q:new T.Quaternion(...a.slice(4)).slerp(new T.Quaternion(...b.slice(4)),v)};}
+function pose(t){const s=sample(t);const u=Math.max(0,Math.min(1,s.dx/180)),smooth=u*u*(3-2*u),gain=motion.retarget.negative_translation_gain+(motion.retarget.positive_translation_gain-motion.retarget.negative_translation_gain)*smooth;const cx=anchor[0]+s.dx*gain,cy=anchor[1]+s.dy;phone.position.set((cx-W/2)*s.z/f,-(cy-H/2)*s.z/f,-s.z);phone.quaternion.copy(s.q);phone.position.sub(new T.Vector3(0,0,.153).applyQuaternion(s.q));}
+function typeOffset(t,start){const u=(t-start)*30;if(u<=0)return -1;const a=timing.text_curve;if(u>=a.length-1)return 0;const i=Math.floor(u);return T.MathUtils.lerp(a[i],a[i+1],u-i);}
+function word(im,sx,sw,x,y,start){const dx=typeOffset(window.animationTime,start);if(dx<=-1)return;const c=ty.ctx;c.save();c.beginPath();c.rect(x,y,sw,im.height);c.clip();c.drawImage(im,sx,0,sw,im.height,x+dx*sw,y,sw,im.height);c.restore();}
+function text(t){ty.ctx.clearRect(0,0,W,H);window.animationTime=t;const w=timing.word_frames;word(brand,0,114,60,140,w.Pango/30);word(brand,114,110,174,140,w.Pango/30);word(brand,224,124,284,140,w.Basket/30);word(line1,0,112,525,730,w['Çok']/30);word(line1,112,204,637,730,w['yakında']/30);word(line2,0,280,525,818,w['Girne’de!']/30);}
+const acc=document.createElement('canvas');acc.width=W;acc.height=H;const ac=acc.getContext('2d');
+window.projectData={motion,timing};window.drawFrame=async(t,n=8)=>{if(t>=.8)n=1;ac.clearRect(0,0,W,H);ac.globalCompositeOperation='lighter';ac.globalAlpha=1/n;for(let j=0;j<n;j++){const dt=n>1?(j/(n-1)-.5)/30*.07:0;pose(Math.max(0,t+dt));renderer.render(scene,camera);ac.drawImage(renderer.domElement,0,0);}ac.globalCompositeOperation='source-over';ac.globalAlpha=1;pl.ctx.clearRect(0,0,W,H);pl.ctx.save();pl.ctx.shadowColor='rgba(12,28,42,.20)';pl.ctx.shadowBlur=28;pl.ctx.shadowOffsetX=13;pl.ctx.shadowOffsetY=20;pl.ctx.drawImage(acc,0,0);pl.ctx.restore();text(t);ctx.clearRect(0,0,W,H);for(const l of [bg,pl,ty])if(l.visible)ctx.drawImage(l.canvas,0,0);return out.toDataURL('image/png');};
+window.getProjectedScreen=()=>{const sw=1.997,sh=sw*1536/691;pose(1);phone.updateMatrixWorld(true);return [[-sw/2,sh/2],[sw/2,sh/2],[sw/2,-sh/2],[-sw/2,-sh/2]].map(([x,y])=>{const v=new T.Vector3(x,y,.153).applyMatrix4(phone.matrixWorld).project(camera);return [(v.x+1)*W/2,(1-v.y)*H/2]})};
+window.ready=true;if(!new URLSearchParams(location.search).has('render'))await window.drawFrame(timing.duration,1);
