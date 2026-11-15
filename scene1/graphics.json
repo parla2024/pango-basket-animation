@@ -243,5 +243,19 @@
       56,
       317
     ]
+  },
+  "voice_cue_frames": {
+    "Pango": 18,
+    "Basket": 28,
+    "Çok": 49,
+    "yakında": 55,
+    "Girne’de!": 70
+  },
+  "reveal_frames": {
+    "Pango": 6,
+    "Basket": 5,
+    "Çok": 4,
+    "yakında": 6,
+    "Girne’de!": 6
   }
 }
