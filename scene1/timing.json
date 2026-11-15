@@ -1,9 +1,18 @@
 {
   "fps": 30,
-  "duration": 2,
+  "duration": 3.2,
   "width": 1080,
   "height": 1920,
-  "headline_start_frame": 30,
-  "source": "10340.mp4, opening scene, source frame coordinates scaled 1.5x; no composition retargeting",
-  "audio": "First 2 seconds of the reference audio, unchanged timeline"
+  "pullback_reference_frames": [
+    68,
+    88
+  ],
+  "word_frames": {
+    "Çok": 49,
+    "yakında": 56,
+    "Girne’de!": 71
+  },
+  "audio_source_name": "pango reklam müziği.mp3",
+  "audio_source_sha256": "837f83e0a9bbc8a601a587e47251e2abe4951b0485c0e9244f92ae21f85ff99b",
+  "audio_usage": "Only the first 3.2 seconds of the uploaded MP3; no reference audio, gain, EQ, time shift or remix."
 }
