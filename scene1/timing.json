@@ -1,39 +1,9 @@
 {
   "fps": 30,
-  "duration": 3.066666666666667,
+  "duration": 2,
   "width": 1080,
   "height": 1920,
-  "word_frames": {
-    "Pango": 19,
-    "Basket": 28,
-    "Çok": 49,
-    "yakında": 56,
-    "Girne’de!": 71
-  },
-  "voice_word_frames_estimated": {
-    "Pango": 18,
-    "Basket": 28,
-    "Çok": 49,
-    "yakında": 56,
-    "Girne’de!": 71
-  },
-  "text_curve": [
-    -1.0,
-    -0.6859903381642513,
-    -0.45410628019323673,
-    -0.28019323671497587,
-    -0.15942028985507245,
-    -0.07729468599033816,
-    -0.028985507246376812,
-    -0.004830917874396135,
-    0.0
-  ],
-  "text_curve_source": "Measured headline displacement, reference frames 33–40; first boundary extrapolated from tracked frames. No fade or bounce.",
-  "qc_limitations": [
-    "The main position is within about 3 reference pixels of settled at frame 18; typography starts at frame 19 while the measured small angular tail continues through frame 24.",
-    "Original effect has no approved cue marker; prior approved interpretation is retained: accent during entrance, not a snap at final landing.",
-    "Reference camera projection fit is approximate; initial two frames are extrapolated."
-  ],
-  "primary_position_settle_frame": 18,
-  "rotation_tail_end_frame": 24
+  "headline_start_frame": 30,
+  "source": "10340.mp4, opening scene, source frame coordinates scaled 1.5x; no composition retargeting",
+  "audio": "First 2 seconds of the reference audio, unchanged timeline"
 }

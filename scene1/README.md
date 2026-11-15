@@ -1,17 +1,15 @@
-# Pango Basket — Sahne 1, ölçülen hareket testi
+# Pango Basket — Referans açılış testi
 
-Bu kaynaklar tek test MP4'ünün düzenlenebilir projesidir. Önceki sürümler korunmuştur. Arka plan, logo, onaylı yazı biçimleri ve gerçek ekran yeniden tasarlanmamıştır.
+Güncel sahne, 10340.mp4 referansının ilk 2 saniyesindeki telefon ve yazı yerleşimini, girişini ve hareket ritmini kullanır. Eski sol-orta yerleşime uyarlama yapılmaz. Referans arka planı yerine onaylı Pango mavi-beyaz zemin kullanılır. Modern Pro tarzı 3D telefon ve gerçek Pango ekranı korunur; arayüz yeniden çizilmez.
 
-Bu dizinde `python3 -m http.server 8768` çalıştırıp `http://127.0.0.1:8768` adresini açın. Three.js 0.170.0 yerel olarak dahildir; internet bağlantısı gerekmez. Son kare görüntülenir; tarayıcı konsolunda `await drawFrame(0.35)` ile zamanı değiştirin.
+Bu dizinde `python3 -m http.server 8768` çalıştırıp `http://127.0.0.1:8768` adresini açın. Three.js yerel olarak dahildir. Son kare görüntülenir; konsolda `await drawFrame(0.35)` ile zamanı değiştirin.
 
-- `phone.js`: bağımsız gerçek 3D geometri ve ekran dokusu.
-- `scene.js`: kamera, ışık, bağımsız arka plan / telefon / tipografi canvas katmanları; `window.editableLayers` üzerinden görünürlük.
-- `motion.json`: referanstan ölçülmüş kareler, 3D poz uyarlaması ve ara değerlenmiş hareket. Onaylı son konuma uyarlanmış yol. `samples` oynatılan 240 Hz anahtar dizisidir; `keys` ölçüm kayıtlarıdır. `retarget` giriş mesafesini, `anchor_center` son konumu düzenler.
-- `timing.json`: kelime başlangıç kareleri ve referansın yazı hareketinden ölçülmüş geçiş profili.
-- `screen.png`, `assets/`: değiştirilmemiş ekran ve korunmuş tasarım öğeleri.
+- `phone.js`: gerçek 3D cihaz ve değişmeyen ekran dokusu.
+- `motion.json`: telefon gövdesinin takip edilen izdüşümüne uydurulmuş pozlar ve off-axis kamera; `samples` oynatılan 240 Hz konum/dönüş/lens-shift örnekleridir. Kamera parametreleri tek ve kesin fiziksel kamera çözümü olarak sunulmaz.
+- `graphics.json`: orijinal logo yerleşimi ve referanstan ölçülen logo/başlık hareketi ve görünürlükleri.
+- `scene.js`: bağımsız telefon ve tipografi katmanları, sabit arka plan, kompozit.
+- `timing.json`: test süresi ve başlık giriş karesi.
+- `assets/logo.png`: orijinal yüksek çözünürlüklü Pango logosundan şeffaflaştırılmış varlık.
+- `assets/headline.png`: referanstaki gerçek ARTIK GİRNE’DE başlığının şeffaf varlığı; farklı font kullanılmaz.
 
-Ses testi V13 tam miksinin ilk 3,0667 saniyesini kaydırmadan ve miks işlemi uygulamadan kullanır; ses dosyaları mevcut kaynak pakette korunur. MP4 aynı deponun `output/` dizinindedir.
-
-## Doğrulama sınırları
-
-Görüntü özellikleri takibinin medyan RMS hatası yaklaşık 0,3 px (720×1280 referansta); bu değer, 3D kamera/model eşleşmesinin hatası değildir. 3D poz uyarlamasının medyanı yaklaşık 7 px; onaylı ekranın son konumuna uyarlama yaklaşık 5 px RMS (1080×1920). Referansın arka planı/ekranı kopyalanmadığından yol ve ölçek onaylı sol kompozisyona uyarlanmıştır. İlk iki kare büyük ölçüde kadraj dışında kaldığı için çıkarımla tamamlanır. Ayrı Whip Snap zaman işareti yoktur; önceki kullanıcı onayına göre darbe girişe bağlanır, son yerleşmeye değil. Kelime zamanları konuşma çözümlemesine dayanır. Bu çalışma kesin piksel/kare eşleşmesi onaylanmış nihai reklam değildir.
+Telefonun 1. karesi optik akışla takip edildi. Kadrajın çoğunlukla dışında kalan 0. kare, devam hareketinden çıkarılıp görünen kenar sınırlarıyla düzeltilmiştir. Telefon modeli değiştiği için kalınlık, kenar ve cam görünümü referansla piksel piksel aynı değildir. Açılış sesi bu testte referansın ilk 2 saniyesinden alınmıştır; önceki V13 zamanlaması kullanılmaz. Çıktı `output/Pango_Basket_Referans_Acilis_Test.mp4` dosyasındadır. Önceki sürümler ve varlıklar silinmemiştir.
