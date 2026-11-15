@@ -257,5 +257,21 @@
     "Çok": 4,
     "yakında": 6,
     "Girne’de!": 6
+  },
+  "left_layout": {
+    "logo_translate": [
+      33.25,
+      769.25
+    ],
+    "logo_scale": 0.85,
+    "line1": [
+      73,
+      1004
+    ],
+    "line2": [
+      73,
+      1069
+    ],
+    "composite": "Type behind phone: device naturally reveals its left-hand text during pullback."
   }
 }

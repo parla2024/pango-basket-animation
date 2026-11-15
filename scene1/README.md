@@ -1,20 +1,16 @@
-# Pango Basket — Motion revizyonu
+# Pango Basket — Kısa duruş, solda yazı
 
-3,2 saniye, 1080×1920, 30 FPS. Tek revizyon MP4: `output/Pango_Basket_Motion_Revizyon.mp4`.
+Tek güncel MP4: `output/Pango_Basket_Kisa_Durus_Sol_Yazi.mp4` — 3,2 saniye, 1080×1920, 30 FPS.
 
-Tasarım, arka plan, orijinal logo, gerçek ekran dokusu, telefon modeli ve yazıların son konumları/renkleri değişmez. Büyük ve küçük telefon pozları önceki videodan aynen alınır. Giriş ilk harekette hızlı, sonunda yumuşaktır; geri çekilme sıfır başlangıç/bitiş hızı ve ivmesiyle gerçek 3D derinlikte yapılır. Aşırı dönüş veya konum zıplaması eklenmez.
+Kullanıcı önceki telefon hareketini tercih ettiği için referanstan ölçülen eski yola dönülmüştür. Büyük giriş yaklaşık 0,6 saniyede tamamlanır. Yaklaşık 0,15 saniyelik tek kısa duraklamanın ardından 0,75–1,4 saniye arasında geri çekilip sağdaki küçük yerleşime geçer. Uzun ara bekleme kaldırılmıştır. Son poz, sesli sloganın okunması için tutulur.
 
-Logo içindeki Pango/Basket ve slogan kelimeleri aynı orijinal görüntülerden, konuşma vurgularına bağlı prefix maskeleri ve kısa kontrollü yerleşme hareketleriyle açılır. Ekran yeniden çizilmez.
+Kullanıcının seçimiyle orijinal logo ve **Çok yakında Girne’de!** grubu telefonun sol yanına, orta alana alınır. Logo aynı oranlarda %85 boyutla yerleştirilmiştir. Yazı katmanı telefonun arkasındadır; büyük cihaz geçerken doğal biçimde açılır ve uygulama ekranının üzerine binmez. Orijinal tasarım varlıkları, gerçek UI ve mavi-beyaz zemin korunur.
 
-Motion blur, izdüşüm köşelerinin hızından hesaplanır. Hız 350 px/sn altında tek, net örnek alınır; hızlı harekette 4 veya 8 temporal örnek kullanılır. Bekleme pozlarında bulanıklık yoktur.
+V13 AAC ses izi kullanıcının yüklediği `Pango_Basket_Motion_Revizyon.mp4` dosyasından yeniden kodlanmadan kopyalanır. Miks, seviye, EQ veya zaman kayması yapılmaz. Eski MP4 ve proje sürümleri silinmemiştir.
 
-**V13 ses kurgusu:** Önceki `Pango_Basket_Giris_Geri_Cekilme_Test.mp4` dosyasının AAC ses izi yeniden kodlanmadan kopyalanır. Kaynak, kullanıcının yüklediği `pango reklam müziği.mp3` miksidir; referans sesi kullanılmaz. Ses kaydırma, miks, EQ veya seviye değişikliği yapılmaz.
+Bu dizinde `python3 -m http.server 8768` çalıştırıp `http://127.0.0.1:8768` adresini açın. Son kare görünür; konsolda `await drawFrame(1.1)` ile zamanı değiştirin. Three.js yerel olarak dahildir.
 
-Bu dizinde `python3 -m http.server 8768` çalıştırıp `http://127.0.0.1:8768` adresini açın. Son kare gösterilir; konsolda `await drawFrame(2.6)` ile zamanı değiştirin. Three.js yerel olarak dahildir.
-
-- `phone.js`, `screen.png`, `assets/`: önceki tasarım ve 3D modelin değiştirilmemiş kaynakları.
-- `motion.json`: mevcut videodan korunan büyük/küçük pozlar, giriş ve geri çekilme eğrileri, blur eşikleri.
-- `graphics.json`, `timing.json`: konuşma vurgusu kareleri ve maskeli geçiş süreleri.
-- `scene.js`: düzenlenebilir bağımsız telefon ve tipografi katmanları.
-
-Önceki test ve proje sürümleri korunur; alternatif video, ZIP veya önizleme dosyası eklenmez.
+- `motion.json`: önceki ölçülmüş yol, kısa duruş ve geri çekilme zaman eşlemesi.
+- `graphics.json`: soldaki grup yerleşimi, orijinal logo dönüşümü ve kelime maskeleri.
+- `scene.js`: bağımsız telefon/tipografi katmanları, 3D telefon, hızla sınırlanan blur.
+- `phone.js`, `screen.png`, `assets/`: korunmuş model, gerçek ekran ve tasarım varlıkları.

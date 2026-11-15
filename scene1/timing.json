@@ -14,15 +14,23 @@
   },
   "audio_source_name": "pango reklam müziği.mp3",
   "audio_source_sha256": "837f83e0a9bbc8a601a587e47251e2abe4951b0485c0e9244f92ae21f85ff99b",
-  "audio_usage": "Copy AAC stream unchanged from the previous Pango_Basket_Giris_Geri_Cekilme_Test.mp4; no re-encoding, shift, remix or gain change.",
+  "audio_usage": "AAC stream copied unchanged from the user-uploaded Pango_Basket_Motion_Revizyon.mp4.",
   "brand_cue_frames": {
     "Pango": 18,
     "Basket": 28
   },
   "pullback_frames": [
-    67,
-    89
+    23,
+    42
   ],
-  "entry_land_frame": 17,
-  "output": "output/Pango_Basket_Motion_Revizyon.mp4"
+  "entry_land_frame": 18,
+  "output": "output/Pango_Basket_Kisa_Durus_Sol_Yazi.mp4",
+  "entry_end_s": 0.6,
+  "single_pause_s": 0.15,
+  "pullback_s": [
+    0.75,
+    1.4
+  ],
+  "text_placement": "To the left of the phone, middle of the frame; not at the top.",
+  "motion_source": "Earlier Pango_Basket_Giris_Geri_Cekilme_Test.mp4 / reference-tracked path, retimed to remove long pause."
 }
