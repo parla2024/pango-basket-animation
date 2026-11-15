@@ -24,13 +24,14 @@
     42
   ],
   "entry_land_frame": 18,
-  "output": "output/Pango_Basket_Kisa_Durus_Sol_Yazi.mp4",
+  "output": "output/Pango_Basket_Ust_Logo_Revizyon.mp4",
   "entry_end_s": 0.6,
   "single_pause_s": 0.15,
   "pullback_s": [
     0.75,
     1.4
   ],
-  "text_placement": "To the left of the phone, middle of the frame; not at the top.",
-  "motion_source": "Earlier Pango_Basket_Giris_Geri_Cekilme_Test.mp4 / reference-tracked path, retimed to remove long pause."
+  "text_placement": "Approved slogan remains to the left of the phone.",
+  "motion_source": "Earlier Pango_Basket_Giris_Geri_Cekilme_Test.mp4 / reference-tracked path, retimed to remove long pause.",
+  "logo_placement": "Top, x about 80px / y about 150px. Only vertical logo placement changed."
 }
