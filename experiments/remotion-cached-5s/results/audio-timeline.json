@@ -1,0 +1,44 @@
+{
+  "first_frame": {
+    "audioAndVideoAssets": [
+      {
+        "type": "audio",
+        "src": "http://localhost:3000/public/legacy/assets/V13_Onayli_Miks.mp3",
+        "id": "audio-0.9856699665542692-0-0-150",
+        "frame": 0,
+        "volume": 1,
+        "mediaFrame": 0,
+        "playbackRate": 1,
+        "toneFrequency": 1,
+        "audioStartFrame": 0,
+        "audioStreamIndex": 0,
+        "preservePitch": true
+      }
+    ],
+    "frame": 0,
+    "artifactAssets": [],
+    "inlineAudioAssets": []
+  },
+  "last_frame": {
+    "audioAndVideoAssets": [
+      {
+        "type": "audio",
+        "src": "http://localhost:3000/public/legacy/assets/V13_Onayli_Miks.mp3",
+        "id": "audio-0.9856699665542692-0-0-150",
+        "frame": 149,
+        "volume": 1,
+        "mediaFrame": 149,
+        "playbackRate": 1,
+        "toneFrequency": 1,
+        "audioStartFrame": 0,
+        "audioStreamIndex": 0,
+        "preservePitch": true
+      }
+    ],
+    "frame": 149,
+    "artifactAssets": [],
+    "inlineAudioAssets": []
+  },
+  "frames_registered": 150,
+  "final_mux": "Same system FFmpeg, original V13 MP3, 0..5 seconds, no retiming or mix edits."
+}

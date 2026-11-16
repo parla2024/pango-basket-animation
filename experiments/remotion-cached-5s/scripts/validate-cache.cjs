@@ -1,0 +1,3 @@
+const fs=require('fs'),path=require('path');const {cacheKey,hash}=require('./cache-key.cjs');
+function validate(root){const c=path.join(root,'public/phone-cache');const manifest=JSON.parse(fs.readFileSync(path.join(c,'manifest.json')));const key=cacheKey(path.join(root,'public/legacy'));if(manifest.key!==key.key)throw Error('Phone inputs changed: explicitly rebuild cache; 2D render will not start Three.js.');const frames=manifest.frames.map(f=>{const file=path.join(c,f.file),stat=fs.statSync(file);if(hash(fs.readFileSync(file))!==f.sha256)throw Error('Corrupt cached phone frame '+f.frame);return {frame:f.frame,sha256:f.sha256,mtimeMs:stat.mtimeMs};});return {key:manifest.key,frames};}
+module.exports={validate};

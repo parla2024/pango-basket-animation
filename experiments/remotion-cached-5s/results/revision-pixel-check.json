@@ -1,0 +1,18 @@
+[
+  {
+    "probe": "category",
+    "frame": 125,
+    "changed_pixels": 2186,
+    "changed_outside_text_roi": 0,
+    "changed_logo_pixels": 0,
+    "pass": true
+  },
+  {
+    "probe": "typography",
+    "frame": 75,
+    "changed_pixels": 8391,
+    "changed_outside_text_roi": 0,
+    "changed_logo_pixels": 0,
+    "pass": true
+  }
+]

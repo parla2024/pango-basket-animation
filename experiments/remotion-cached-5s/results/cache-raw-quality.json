@@ -1,0 +1,107 @@
+[
+  {
+    "frame": 0,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 6,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 9,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 12,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 45,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 75,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 99,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 105,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 124,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 125,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 126,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 144,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 145,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 147,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  },
+  {
+    "frame": 149,
+    "opaque_rgb_max_delta": 0,
+    "opaque_rgb_mae": 0.0,
+    "alpha_edge_max_delta": 0,
+    "alpha_edge_mae": 0.0
+  }
+]

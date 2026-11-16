@@ -1,0 +1,23 @@
+{
+  "name": "pango-cached-remotion-isolated-test",
+  "private": true,
+  "scripts": {
+    "test:prepare": "node scripts/prepare.cjs && node scripts/prepare-typography.cjs",
+    "cache:build": "node scripts/build-phone-cache.cjs",
+    "render:cached": "node scripts/render-cached.cjs",
+    "benchmark:revision": "node scripts/render-cached.cjs --reuse-bundle --revision",
+    "render:baseline": "node scripts/render-baseline.cjs",
+    "qa": "python scripts/qa.py",
+    "qa:alpha": "python scripts/alpha-qa.py",
+    "qa:playback": "node scripts/playback.cjs",
+    "qa:revision": "node scripts/revision-stills.cjs"
+  },
+  "dependencies": {
+    "remotion": "4.0.544",
+    "@remotion/renderer": "4.0.544",
+    "@remotion/bundler": "4.0.544",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "playwright": "1.62.1"
+  }
+}

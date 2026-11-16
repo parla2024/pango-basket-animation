@@ -1,0 +1,69 @@
+{
+  "status": "PASSED_5_SECOND_CACHE_TEST",
+  "production_modified": false,
+  "full_length_rendered": false,
+  "duration": 5,
+  "fps": 30,
+  "frames": 150,
+  "size": [
+    1080,
+    1920
+  ],
+  "phone_cache_generation_seconds": 395.23585439600004,
+  "phone_cache_bytes": 121928903,
+  "cache_key": "2243d5b4bbd352fef32e959829ac2c0e8ad011f4c4358e9b08f381d9ec3a381b",
+  "existing_render_wall_seconds": 420.816463255,
+  "existing_extra_qa_seconds": 12.698709559999951,
+  "existing_seconds_excluding_extra_qa_estimate": 408.11775369500003,
+  "cached_first_composite_seconds": 56.332126093,
+  "cached_revision_seconds": 46.175729564,
+  "repeat_speedup_using_qa_excluded_estimate": 8.83836070482319,
+  "cold_total_seconds": 451.56798048900004,
+  "cached_phone_re_render_calls": 0,
+  "all_phone_png_source_hashes_match": 150,
+  "output_sha256": "768b6a60200763f226fddb1e19020bae29e3f41117803ae3b940ec4416782b33",
+  "cached_and_existing_mp4_byte_identical": true,
+  "decoded_mp4_ssim": 1,
+  "audio_lag_samples": 0,
+  "revision_isolation": [
+    {
+      "probe": "category",
+      "frame": 125,
+      "changed_pixels": 2186,
+      "changed_outside_text_roi": 0,
+      "changed_logo_pixels": 0,
+      "pass": true
+    },
+    {
+      "probe": "typography",
+      "frame": 75,
+      "changed_pixels": 8391,
+      "changed_outside_text_roi": 0,
+      "changed_logo_pixels": 0,
+      "pass": true
+    }
+  ],
+  "playback": [
+    {
+      "file": "Pango_Baseline_5s.mp4",
+      "ended": true,
+      "duration": 5,
+      "width": 1080,
+      "height": 1920,
+      "totalVideoFrames": 150,
+      "droppedVideoFrames": 0,
+      "error": null
+    },
+    {
+      "file": "Pango_Cached_Remotion_5s.mp4",
+      "ended": true,
+      "duration": 5,
+      "width": 1080,
+      "height": 1920,
+      "totalVideoFrames": 150,
+      "droppedVideoFrames": 0,
+      "error": null
+    }
+  ],
+  "scope": "Single machine and one measured pass per path. Existing path includes extra validation whose elapsed time is separately reported; subtraction is an estimate because encoding overlaps. Cached revision uses existing bundle and only changes 2D props. Full project and 22-second ad are not migrated."
+}

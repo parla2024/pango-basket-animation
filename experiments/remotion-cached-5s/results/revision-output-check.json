@@ -1,0 +1,10 @@
+{
+  "revision_output_sha256": "915f441e98ef8af1a0ecb1aeaff6804627067dd1415a7eb91598bfb3da8d9c29",
+  "delivered_output_sha256": "768b6a60200763f226fddb1e19020bae29e3f41117803ae3b940ec4416782b33",
+  "approved_video_restored_byte_for_byte": true,
+  "delivered_props": {
+    "cardOffsetFrames": 0,
+    "typographyOffsetFrames": 0
+  },
+  "note": "Internal +2-frame revision MP4 was used only for performance measurement; final output is original approved-timing cached render."
+}

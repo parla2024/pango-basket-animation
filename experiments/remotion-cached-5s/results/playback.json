@@ -1,0 +1,22 @@
+[
+  {
+    "file": "Pango_Baseline_5s.mp4",
+    "ended": true,
+    "duration": 5,
+    "width": 1080,
+    "height": 1920,
+    "totalVideoFrames": 150,
+    "droppedVideoFrames": 0,
+    "error": null
+  },
+  {
+    "file": "Pango_Cached_Remotion_5s.mp4",
+    "ended": true,
+    "duration": 5,
+    "width": 1080,
+    "height": 1920,
+    "totalVideoFrames": 150,
+    "droppedVideoFrames": 0,
+    "error": null
+  }
+]

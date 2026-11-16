@@ -1,0 +1,13 @@
+{
+  "seconds": 420.816463255,
+  "qaExtraSeconds": 12.698709559999951,
+  "secondsExcludingQa": 408.11775369500003,
+  "frames": 150,
+  "width": 1080,
+  "height": 1920,
+  "concurrency": 1,
+  "browser": "/usr/bin/chromium",
+  "gpu": "SwiftShader",
+  "includes": "HTTP startup, browser initialization, all frame rendering and H264/AAC encoding",
+  "output": "/workspace/work/pango-remotion-cache-test/results/Pango_Baseline_5s.mp4"
+}
