@@ -1,0 +1,7 @@
+const fs=require('fs'),path=require('path'),os=require('os');const {execFileSync}=require('child_process');
+const root=path.resolve(__dirname,'..'),file=path.join(root,'results/Pango_Remotion_Three_5s.mp4');
+const streamHash=f=>execFileSync('ffmpeg',['-v','error','-i',f,'-map','0:v:0','-c','copy','-f','hash','-hash','sha256','-'],{encoding:'utf8'}).trim();
+const before=streamHash(file),start=performance.now(),tmp=path.join(os.tmpdir(),'pango-remotion-exact-5s-'+process.pid+'.mp4');
+execFileSync('ffmpeg',['-v','error','-y','-i',file,'-i',path.join(root,'public/legacy/assets/V13_Onayli_Miks.mp3'),'-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','192k','-ar','44100','-af','asetpts=PTS-STARTPTS','-t','5','-movflags','+faststart',tmp]);
+fs.copyFileSync(tmp,file);fs.unlinkSync(tmp);const processingSeconds=(performance.now()-start)/1000;const after=streamHash(file);if(before!==after)throw Error('Video stream changed during audio finalization');
+const report={processingSeconds,video_stream_hash_before:before,video_stream_hash_after:after,video_stream_identical:true,native_remotion_audio_duration:5.015011,final_duration:5,method:'Existing FFmpeg path finalizes exact 5-second V13 excerpt from original MP3. Video copied without re-encoding. Native Remotion audio onset had zero lag; only final audio duration needed normalization. Final audio is encoded once from original MP3, not re-encoded from AAC.'};fs.writeFileSync(path.join(root,'results/audio-finalization.json'),JSON.stringify(report,null,2));console.log(report);

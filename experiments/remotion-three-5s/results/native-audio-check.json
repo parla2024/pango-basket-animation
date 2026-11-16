@@ -1,0 +1,24 @@
+{
+  "file": "Pango_Remotion_Three_5s.mp4",
+  "sha256": "9fc93cbe5900b5e6e49673aebcb91447a6998301590221c748b56a8b3dd09d68",
+  "video_duration": "5.000000",
+  "audio_duration": "5.015011",
+  "fps": "30/1",
+  "frames": "150",
+  "decoded_audio_samples": 220500,
+  "source_excerpt_samples": 220500,
+  "audio_correlation": 0.9996673711277655,
+  "audio_lag_samples": 0,
+  "estimated_audio_gain": 0.996929943561554,
+  "first_category_pixels": {
+    "99": 1512,
+    "125": 1243,
+    "145": 595
+  },
+  "blank_guard_pixels": {
+    "124": 0,
+    "144": 0
+  },
+  "full_decode_errors": 0,
+  "stage": "Native Remotion output before exact-duration audio finalization; this intermediate MP4 is not a second delivery."
+}

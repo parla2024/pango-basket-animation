@@ -1,0 +1,30 @@
+{
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "cpu_logical_reported": 3,
+  "chromium": "Chromium 156.0.8078.79 built on Debian GNU/Linux 13 (trixie)",
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "node": "v24.22.1",
+  "source_commit": "86a2c25e641ac652169758c5f9197182aa18b220",
+  "test_seconds": 5,
+  "fps": 30,
+  "frames": 150,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "parallel_scene_renderers": 1,
+  "encoding": {
+    "codec": "H264",
+    "crf": 17,
+    "preset": "slow",
+    "b_frames": 0,
+    "pixel_format": "yuv420p",
+    "color_space": "bt709",
+    "audio": "AAC 192k 44100 stereo"
+  },
+  "scope": "One scene, first 5s; Market/Yemek/T\u00fcp only. Original V13 source is unchanged; output is the first 5s excerpt.",
+  "cpu_quota_cores": 2,
+  "remotion_ffmpeg": "n7.1",
+  "remotion_version": "4.0.544",
+  "three_revision": "170"
+}

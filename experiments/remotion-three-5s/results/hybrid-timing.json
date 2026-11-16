@@ -1,0 +1,58 @@
+{
+  "totalSeconds": 431.31083922100004,
+  "bundleSeconds": 9.813458801000001,
+  "selectionSeconds": 1.1519640849999995,
+  "renderSeconds": 420.04311282500004,
+  "width": 1080,
+  "height": 1920,
+  "frames": 150,
+  "concurrency": 1,
+  "browser": "/usr/bin/chromium",
+  "gpu": "SwiftShader",
+  "remotion": "4.0.544",
+  "slowestFrames": [
+    {
+      "frame": 6,
+      "time": 12576.080798000003
+    },
+    {
+      "frame": 5,
+      "time": 12399.684989000001
+    },
+    {
+      "frame": 4,
+      "time": 10266.863285
+    },
+    {
+      "frame": 3,
+      "time": 8804.079916000002
+    },
+    {
+      "frame": 15,
+      "time": 7270.254340999993
+    },
+    {
+      "frame": 11,
+      "time": 7191.294941
+    },
+    {
+      "frame": 12,
+      "time": 7119.878633999993
+    },
+    {
+      "frame": 10,
+      "time": 7098.212277999992
+    },
+    {
+      "frame": 70,
+      "time": 6854.388846999995
+    },
+    {
+      "frame": 14,
+      "time": 6816.890625999993
+    }
+  ],
+  "scope": "One sequential render; dependency installation and QA excluded. Total includes uncached bundling and composition selection. Encoding overlaps frame rendering. Exact-duration final audio mux processing added; intervening QA/debug time excluded.",
+  "nativeRemotionTotalSeconds": 431.008561469,
+  "audioFinalizationSeconds": 0.30227775199999996
+}

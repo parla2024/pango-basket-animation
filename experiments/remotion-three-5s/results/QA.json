@@ -1,0 +1,113 @@
+{
+  "status": "technical_gates_passed",
+  "methods": {
+    "baseline": {
+      "file": "Pango_Baseline_5s.mp4",
+      "sha256": "768b6a60200763f226fddb1e19020bae29e3f41117803ae3b940ec4416782b33",
+      "video_duration": "5.000000",
+      "audio_duration": "5.000000",
+      "fps": "30/1",
+      "frames": "150",
+      "decoded_audio_samples": 220500,
+      "source_excerpt_samples": 220500,
+      "audio_correlation": 0.9989615627678079,
+      "audio_lag_samples": 0,
+      "estimated_audio_gain": 0.9955231547355652,
+      "first_category_pixels": {
+        "99": 1534,
+        "125": 1257,
+        "145": 607
+      },
+      "blank_guard_pixels": {
+        "124": 0,
+        "144": 0
+      },
+      "full_decode_errors": 0
+    },
+    "hybrid": {
+      "file": "Pango_Remotion_Three_5s.mp4",
+      "sha256": "c45e4177008eec3a87adc25eefc90bfad17b9db349e7e2e2aea6cf662672fab0",
+      "video_duration": "5.000000",
+      "audio_duration": "5.000000",
+      "fps": "30/1",
+      "frames": "150",
+      "decoded_audio_samples": 220500,
+      "source_excerpt_samples": 220500,
+      "audio_correlation": 0.9989615627678079,
+      "audio_lag_samples": 0,
+      "estimated_audio_gain": 0.9955231547355652,
+      "first_category_pixels": {
+        "99": 1512,
+        "125": 1243,
+        "145": 595
+      },
+      "blank_guard_pixels": {
+        "124": 0,
+        "144": 0
+      },
+      "full_decode_errors": 0
+    }
+  },
+  "quality": {
+    "frame_count": 150,
+    "mean_ssim": 0.9978728799999999,
+    "min_ssim": 0.996631,
+    "worst_frame": 9,
+    "scope": "Decoded whole-frame SSIM between two pipelines, including compression and rasterization differences. Does not rate aesthetic quality."
+  },
+  "screen_checks": [
+    {
+      "frame": 12,
+      "time": 0.4,
+      "baseline_ui_ssim": 0.9678461817505628,
+      "hybrid_ui_ssim": 0.9662438457813285
+    },
+    {
+      "frame": 45,
+      "time": 1.5,
+      "baseline_ui_ssim": 0.9717350450792707,
+      "hybrid_ui_ssim": 0.9703903036384809
+    },
+    {
+      "frame": 75,
+      "time": 2.5,
+      "baseline_ui_ssim": 0.9702468144465003,
+      "hybrid_ui_ssim": 0.9681369878570024
+    },
+    {
+      "frame": 105,
+      "time": 3.5,
+      "baseline_ui_ssim": 0.971919573279383,
+      "hybrid_ui_ssim": 0.9697110407269012
+    },
+    {
+      "frame": 126,
+      "time": 4.2,
+      "baseline_ui_ssim": 0.9714872106264489,
+      "hybrid_ui_ssim": 0.969281026723884
+    },
+    {
+      "frame": 147,
+      "time": 4.9,
+      "baseline_ui_ssim": 0.9713895496627567,
+      "hybrid_ui_ssim": 0.9691297914001394
+    }
+  ],
+  "hybrid_unique_frames": 150,
+  "original_files_unchanged": true,
+  "protected_source_hashes": {
+    "phone.js": "588b36d60162144020de0f42102d4a679024daa3e9470e572ef4dcd4a5f804a0",
+    "motion.json": "c43091dc4fb465d32e7861bb39b48206da8b3d3f23d9e9852b234bbc2a451ec6",
+    "screen.png": "6f66655ba502ee0d4e848911af744c9812e55ccc6b200858c3aaf52225be0aec",
+    "graphics.json": "0ad09d2b117ed5e7d000238653d348d75ce60c5549c4522b3cc2aec6fe4d4eeb",
+    "assets/logo.png": "ab1e78b5a6a036389de30aeb57e2d7f969a1078462f317905b7dfaff3bf70548",
+    "assets/background.png": "0bc1152a04aceb39fb16b43b1f0b4f8c06cbbbc6c50ce79945a383fddb2b6c18",
+    "assets/V13_Onayli_Miks.mp3": "837f83e0a9bbc8a601a587e47251e2abe4951b0485c0e9244f92ae21f85ff99b"
+  },
+  "category_frames": {
+    "Market": 99,
+    "Yemek": 125,
+    "Tüp": 145
+  },
+  "scope": "5-second excerpt only; later categories and full-length migration not tested. Technical similarity is not a claim of improved aesthetic quality."
+}

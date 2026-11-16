@@ -1,0 +1,2350 @@
+[
+  {
+    "frame": 0,
+    "time": 0,
+    "sourceTime": 0,
+    "phone": {
+      "speed": 5526.477705480101,
+      "blurSamples": 8,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 0,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 1,
+    "time": 0.03333333333333333,
+    "sourceTime": 0.03333333333333333,
+    "phone": {
+      "speed": 5729.236616707731,
+      "blurSamples": 8,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 1,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 2,
+    "time": 0.06666666666666667,
+    "sourceTime": 0.06666666666666667,
+    "phone": {
+      "speed": 5540.460989456114,
+      "blurSamples": 8,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 2,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 3,
+    "time": 0.1,
+    "sourceTime": 0.1,
+    "phone": {
+      "speed": 4239.399653460954,
+      "blurSamples": 8,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 3,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 4,
+    "time": 0.13333333333333333,
+    "sourceTime": 0.13333333333333333,
+    "phone": {
+      "speed": 3245.1598385412435,
+      "blurSamples": 8,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 4,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 5,
+    "time": 0.16666666666666666,
+    "sourceTime": 0.16666666666666666,
+    "phone": {
+      "speed": 2422.8050283201815,
+      "blurSamples": 8,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 5,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 6,
+    "time": 0.2,
+    "sourceTime": 0.2,
+    "phone": {
+      "speed": 1502.8583155571823,
+      "blurSamples": 8,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 6,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 7,
+    "time": 0.23333333333333334,
+    "sourceTime": 0.23333333333333334,
+    "phone": {
+      "speed": 926.8664655074433,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 7,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 8,
+    "time": 0.26666666666666666,
+    "sourceTime": 0.26666666666666666,
+    "phone": {
+      "speed": 481.1802594421345,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 8,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 9,
+    "time": 0.3,
+    "sourceTime": 0.3,
+    "phone": {
+      "speed": 369.9158985137971,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 9,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 10,
+    "time": 0.3333333333333333,
+    "sourceTime": 0.3333333333333333,
+    "phone": {
+      "speed": 522.8220067356383,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 10,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 11,
+    "time": 0.36666666666666664,
+    "sourceTime": 0.36666666666666664,
+    "phone": {
+      "speed": 631.5310706942817,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 11,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 12,
+    "time": 0.4,
+    "sourceTime": 0.4,
+    "phone": {
+      "speed": 685.0808428069485,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 12,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 13,
+    "time": 0.43333333333333335,
+    "sourceTime": 0.43333333333333335,
+    "phone": {
+      "speed": 674.3680877711047,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 13,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 14,
+    "time": 0.4666666666666667,
+    "sourceTime": 0.4666666666666667,
+    "phone": {
+      "speed": 612.9934627846059,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 14,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 15,
+    "time": 0.5,
+    "sourceTime": 0.5,
+    "phone": {
+      "speed": 526.933572114665,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 15,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 16,
+    "time": 0.5333333333333333,
+    "sourceTime": 0.5333333333333333,
+    "phone": {
+      "speed": 429.57407883733447,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 16,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 17,
+    "time": 0.5666666666666667,
+    "sourceTime": 0.5666666666666667,
+    "phone": {
+      "speed": 333.1550398957089,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 17,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 18,
+    "time": 0.6,
+    "sourceTime": 0.6,
+    "phone": {
+      "speed": 238.86254389937594,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 18,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 19,
+    "time": 0.6333333333333333,
+    "sourceTime": 0.6333333333333333,
+    "phone": {
+      "speed": 167.6152969470928,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 19,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 20,
+    "time": 0.6666666666666666,
+    "sourceTime": 0.6666666666666666,
+    "phone": {
+      "speed": 101.98287164159302,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 20,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 21,
+    "time": 0.7,
+    "sourceTime": 0.7,
+    "phone": {
+      "speed": 67.69776741987367,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 21,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 22,
+    "time": 0.7333333333333333,
+    "sourceTime": 0.7333333333333333,
+    "phone": {
+      "speed": 54.52774493523096,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 22,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 23,
+    "time": 0.7666666666666667,
+    "sourceTime": 0.7666666666666667,
+    "phone": {
+      "speed": 56.83233459467963,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 23,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 24,
+    "time": 0.8,
+    "sourceTime": 0.8,
+    "phone": {
+      "speed": 58.076556453859375,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 24,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 25,
+    "time": 0.8333333333333334,
+    "sourceTime": 0.8333333333333334,
+    "phone": {
+      "speed": 58.31683445372887,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 25,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 26,
+    "time": 0.8666666666666667,
+    "sourceTime": 0.8666666666666667,
+    "phone": {
+      "speed": 54.07016367690442,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 26,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 27,
+    "time": 0.9,
+    "sourceTime": 0.9,
+    "phone": {
+      "speed": 45.76581072042516,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 27,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 28,
+    "time": 0.9333333333333333,
+    "sourceTime": 0.9333333333333333,
+    "phone": {
+      "speed": 38.81986642804315,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 28,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 29,
+    "time": 0.9666666666666667,
+    "sourceTime": 0.9666666666666667,
+    "phone": {
+      "speed": 29.40768008501291,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 29,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 30,
+    "time": 1,
+    "sourceTime": 1,
+    "phone": {
+      "speed": 22.928478233870596,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 30,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 31,
+    "time": 1.0333333333333334,
+    "sourceTime": 1.0333333333333334,
+    "phone": {
+      "speed": 13.210312262628996,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 31.000000000000004,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 32,
+    "time": 1.0666666666666667,
+    "sourceTime": 1.0666666666666667,
+    "phone": {
+      "speed": 1.979021094840345,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 32,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 33,
+    "time": 1.1,
+    "sourceTime": 1.1,
+    "phone": {
+      "speed": 2.0382144257580834,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 33,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 34,
+    "time": 1.1333333333333333,
+    "sourceTime": 1.1333333333333333,
+    "phone": {
+      "speed": 2.9845609763467444,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 34,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 35,
+    "time": 1.1666666666666667,
+    "sourceTime": 1.1666666666666667,
+    "phone": {
+      "speed": 7.1798782322854295,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 35,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 36,
+    "time": 1.2,
+    "sourceTime": 1.2,
+    "phone": {
+      "speed": 2.5490871217565583,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 36,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 37,
+    "time": 1.2333333333333334,
+    "sourceTime": 1.2333333333333334,
+    "phone": {
+      "speed": 3.2976050564755037,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 37,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 38,
+    "time": 1.2666666666666666,
+    "sourceTime": 1.2666666666666666,
+    "phone": {
+      "speed": 6.487561271633574,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 38,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 39,
+    "time": 1.3,
+    "sourceTime": 1.3,
+    "phone": {
+      "speed": 2.9292359425288206,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 39,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 40,
+    "time": 1.3333333333333333,
+    "sourceTime": 1.3333333333333333,
+    "phone": {
+      "speed": 1.531216613827334,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 40,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 41,
+    "time": 1.3666666666666667,
+    "sourceTime": 1.3666666666666667,
+    "phone": {
+      "speed": 1.6097906491730147,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 41,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 42,
+    "time": 1.4,
+    "sourceTime": 1.4,
+    "phone": {
+      "speed": 0.5754252904126633,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 42,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 43,
+    "time": 1.4333333333333333,
+    "sourceTime": 1.4333333333333333,
+    "phone": {
+      "speed": 2.0564492874871525,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 43,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 44,
+    "time": 1.4666666666666666,
+    "sourceTime": 1.4666666666666666,
+    "phone": {
+      "speed": 0.468870862166725,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 44,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 45,
+    "time": 1.5,
+    "sourceTime": 1.5,
+    "phone": {
+      "speed": 0.7584075031243969,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 45,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 46,
+    "time": 1.5333333333333334,
+    "sourceTime": 1.5333333333333334,
+    "phone": {
+      "speed": 0.28491521283841004,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 46,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 47,
+    "time": 1.5666666666666667,
+    "sourceTime": 1.5666666666666667,
+    "phone": {
+      "speed": 0.32428036264424126,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 47,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 48,
+    "time": 1.6,
+    "sourceTime": 1.6,
+    "phone": {
+      "speed": 0.9734759927468052,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 48,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 49,
+    "time": 1.6333333333333333,
+    "sourceTime": 1.6333333333333333,
+    "phone": {
+      "speed": 0.7252954421473661,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 49,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 50,
+    "time": 1.6666666666666667,
+    "sourceTime": 1.6666666666666667,
+    "phone": {
+      "speed": 0.3852138625553105,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 50,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 51,
+    "time": 1.7,
+    "sourceTime": 1.7,
+    "phone": {
+      "speed": 0.5305329126263826,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 51,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 52,
+    "time": 1.7333333333333334,
+    "sourceTime": 1.7333333333333334,
+    "phone": {
+      "speed": 0.9677318620353103,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 52,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 53,
+    "time": 1.7666666666666666,
+    "sourceTime": 1.7666666666666666,
+    "phone": {
+      "speed": 0.7463310931792407,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 53,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 54,
+    "time": 1.8,
+    "sourceTime": 1.8,
+    "phone": {
+      "speed": 0.21315332657263955,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 54,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 55,
+    "time": 1.8333333333333333,
+    "sourceTime": 1.8333333333333333,
+    "phone": {
+      "speed": 0.5624764584552938,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 55,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 56,
+    "time": 1.8666666666666667,
+    "sourceTime": 1.8666666666666667,
+    "phone": {
+      "speed": 0.054905771421621,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 56,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 57,
+    "time": 1.9,
+    "sourceTime": 1.9,
+    "phone": {
+      "speed": 0.1779235340281847,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 57,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 58,
+    "time": 1.9333333333333333,
+    "sourceTime": 1.9333333333333333,
+    "phone": {
+      "speed": 0.02803551339865493,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 58,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 59,
+    "time": 1.9666666666666666,
+    "sourceTime": 1.9666666666666666,
+    "phone": {
+      "speed": 0.27596202086716354,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 59,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 60,
+    "time": 2,
+    "sourceTime": 2,
+    "phone": {
+      "speed": 0.5623499362664031,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 60,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 61,
+    "time": 2.033333333333333,
+    "sourceTime": 2.033333333333333,
+    "phone": {
+      "speed": 0.41469201176318987,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 61,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 62,
+    "time": 2.066666666666667,
+    "sourceTime": 2.066666666666667,
+    "phone": {
+      "speed": 1.556292260826811,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 62.00000000000001,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 63,
+    "time": 2.1,
+    "sourceTime": 2.1,
+    "phone": {
+      "speed": 0.22320134666561633,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 63,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 64,
+    "time": 2.1333333333333333,
+    "sourceTime": 2.1333333333333333,
+    "phone": {
+      "speed": 1.3866133139840717,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 64,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 65,
+    "time": 2.1666666666666665,
+    "sourceTime": 2.1666666666666665,
+    "phone": {
+      "speed": 0.5083399962809827,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 65,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 66,
+    "time": 2.2,
+    "sourceTime": 2.2,
+    "phone": {
+      "speed": 2.1268969468967853,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 66,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 67,
+    "time": 2.2333333333333334,
+    "sourceTime": 2.2333333333333334,
+    "phone": {
+      "speed": 55.76609479990005,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 67,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 68,
+    "time": 2.2666666666666666,
+    "sourceTime": 2.2666666666666666,
+    "phone": {
+      "speed": 182.62250552431627,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 68,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 69,
+    "time": 2.3,
+    "sourceTime": 2.3,
+    "phone": {
+      "speed": 297.8761522770425,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 69,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 70,
+    "time": 2.3333333333333335,
+    "sourceTime": 2.3333333333333335,
+    "phone": {
+      "speed": 399.79918881576305,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 70,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 71,
+    "time": 2.3666666666666667,
+    "sourceTime": 2.3666666666666667,
+    "phone": {
+      "speed": 479.41449423896233,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 71,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 72,
+    "time": 2.4,
+    "sourceTime": 2.4,
+    "phone": {
+      "speed": 552.9074829998061,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 72,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 73,
+    "time": 2.433333333333333,
+    "sourceTime": 2.433333333333333,
+    "phone": {
+      "speed": 600.4132302344498,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 73,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 74,
+    "time": 2.466666666666667,
+    "sourceTime": 2.466666666666667,
+    "phone": {
+      "speed": 635.8527896010219,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 74,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 75,
+    "time": 2.5,
+    "sourceTime": 2.5,
+    "phone": {
+      "speed": 657.8771551235278,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 75,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 76,
+    "time": 2.533333333333333,
+    "sourceTime": 2.533333333333333,
+    "phone": {
+      "speed": 668.7007658663434,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 76,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 77,
+    "time": 2.566666666666667,
+    "sourceTime": 2.566666666666667,
+    "phone": {
+      "speed": 659.1487036231473,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 77,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 78,
+    "time": 2.6,
+    "sourceTime": 2.6,
+    "phone": {
+      "speed": 634.7499208682942,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 78,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 79,
+    "time": 2.6333333333333333,
+    "sourceTime": 2.6333333333333333,
+    "phone": {
+      "speed": 574.4340223197448,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 79,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 80,
+    "time": 2.6666666666666665,
+    "sourceTime": 2.6666666666666665,
+    "phone": {
+      "speed": 524.700780261635,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 80,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 81,
+    "time": 2.7,
+    "sourceTime": 2.7,
+    "phone": {
+      "speed": 481.5809823489865,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 81,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 82,
+    "time": 2.7333333333333334,
+    "sourceTime": 2.7333333333333334,
+    "phone": {
+      "speed": 376.25827346514865,
+      "blurSamples": 4,
+      "shutter": 0.09
+    },
+    "card": {
+      "frame": 82,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 83,
+    "time": 2.7666666666666666,
+    "sourceTime": 2.7666666666666666,
+    "phone": {
+      "speed": 298.8805850149992,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 83,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 84,
+    "time": 2.8,
+    "sourceTime": 2.8,
+    "phone": {
+      "speed": 147.49858856597012,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 84,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 85,
+    "time": 2.8333333333333335,
+    "sourceTime": 2.8333333333333335,
+    "phone": {
+      "speed": 24.655203781910917,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 85,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 86,
+    "time": 2.8666666666666667,
+    "sourceTime": 2.8666666666666667,
+    "phone": {
+      "speed": 5.931529254414221,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 86,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 87,
+    "time": 2.9,
+    "sourceTime": 2.9,
+    "phone": {
+      "speed": 0.5812136858099979,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 87,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 88,
+    "time": 2.933333333333333,
+    "sourceTime": 2.933333333333333,
+    "phone": {
+      "speed": 1.6185283008298867,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 88,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 89,
+    "time": 2.966666666666667,
+    "sourceTime": 2.966666666666667,
+    "phone": {
+      "speed": 0.798236763434192,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 89,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 90,
+    "time": 3,
+    "sourceTime": 3,
+    "phone": {
+      "speed": 1.1569681674383914,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 90,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 91,
+    "time": 3.033333333333333,
+    "sourceTime": 3.033333333333333,
+    "phone": {
+      "speed": 2.3896179639173543,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 91,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 92,
+    "time": 3.066666666666667,
+    "sourceTime": 3.066666666666667,
+    "phone": {
+      "speed": 1.053330993457582,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 92,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 93,
+    "time": 3.1,
+    "sourceTime": 3.1,
+    "phone": {
+      "speed": 0.7073496524046675,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 93,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 94,
+    "time": 3.1333333333333333,
+    "sourceTime": 3.1333333333333333,
+    "phone": {
+      "speed": 0.9254642663319547,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 94,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 95,
+    "time": 3.1666666666666665,
+    "sourceTime": 3.1666666666666665,
+    "phone": {
+      "speed": 0.2739588643267724,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 95,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 96,
+    "time": 3.2,
+    "sourceTime": 3.2,
+    "phone": {
+      "speed": 2.459904283917637,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 96,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 97,
+    "time": 3.2333333333333334,
+    "sourceTime": 3.2333333333333334,
+    "phone": {
+      "speed": 3.0510711564142987,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 97,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 98,
+    "time": 3.2666666666666666,
+    "sourceTime": 3.2666666666666666,
+    "phone": {
+      "speed": 1.8242717065679153,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 98,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 99,
+    "time": 3.3,
+    "sourceTime": 3.3,
+    "phone": {
+      "speed": 1.2610932038396534,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 99,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 100,
+    "time": 3.3333333333333335,
+    "sourceTime": 3.3333333333333335,
+    "phone": {
+      "speed": 0.574872387049967,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 100,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 101,
+    "time": 3.3666666666666667,
+    "sourceTime": 3.3666666666666667,
+    "phone": {
+      "speed": 0.7403515810612182,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 101,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 102,
+    "time": 3.4,
+    "sourceTime": 3.4,
+    "phone": {
+      "speed": 0.7364934123178295,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 102,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 103,
+    "time": 3.433333333333333,
+    "sourceTime": 3.433333333333333,
+    "phone": {
+      "speed": 1.040180733446231,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 103,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 104,
+    "time": 3.466666666666667,
+    "sourceTime": 3.466666666666667,
+    "phone": {
+      "speed": 0.692793728156861,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 104,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 105,
+    "time": 3.5,
+    "sourceTime": 3.5,
+    "phone": {
+      "speed": 0.9909360678273158,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 105,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 106,
+    "time": 3.533333333333333,
+    "sourceTime": 3.533333333333333,
+    "phone": {
+      "speed": 0.4752143346731614,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 106,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 107,
+    "time": 3.566666666666667,
+    "sourceTime": 3.566666666666667,
+    "phone": {
+      "speed": 1.0839215474114263,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 107,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 108,
+    "time": 3.6,
+    "sourceTime": 3.6,
+    "phone": {
+      "speed": 2.0265596899965246,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 108,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 109,
+    "time": 3.6333333333333333,
+    "sourceTime": 3.6333333333333333,
+    "phone": {
+      "speed": 0.1410485094538855,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 109,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 110,
+    "time": 3.6666666666666665,
+    "sourceTime": 3.6666666666666665,
+    "phone": {
+      "speed": 0.8822815408908627,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 110,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 111,
+    "time": 3.7,
+    "sourceTime": 3.7,
+    "phone": {
+      "speed": 0.19903437220615652,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 111,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 112,
+    "time": 3.7333333333333334,
+    "sourceTime": 3.7333333333333334,
+    "phone": {
+      "speed": 2.299202031191865,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 112,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 113,
+    "time": 3.7666666666666666,
+    "sourceTime": 3.7666666666666666,
+    "phone": {
+      "speed": 2.9531459349594753,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 113,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 114,
+    "time": 3.8,
+    "sourceTime": 3.8,
+    "phone": {
+      "speed": 1.242698662827122,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 114,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 115,
+    "time": 3.8333333333333335,
+    "sourceTime": 3.8333333333333335,
+    "phone": {
+      "speed": 0.0634395347525729,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 115,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 116,
+    "time": 3.8666666666666667,
+    "sourceTime": 3.8666666666666667,
+    "phone": {
+      "speed": 1.7961808546766194,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 116,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 117,
+    "time": 3.9,
+    "sourceTime": 3.9,
+    "phone": {
+      "speed": 4.204247250531367,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 117,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 118,
+    "time": 3.933333333333333,
+    "sourceTime": 3.933333333333333,
+    "phone": {
+      "speed": 1.0709922112798207,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 118,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 119,
+    "time": 3.966666666666667,
+    "sourceTime": 3.966666666666667,
+    "phone": {
+      "speed": 2.564023028442373,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 119,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 120,
+    "time": 4,
+    "sourceTime": 4,
+    "phone": {
+      "speed": 3.1145806547803376,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 120,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 121,
+    "time": 4.033333333333333,
+    "sourceTime": 4.033333333333333,
+    "phone": {
+      "speed": 1.1546783375963583,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 121,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 122,
+    "time": 4.066666666666666,
+    "sourceTime": 4.066666666666666,
+    "phone": {
+      "speed": 2.088004160743179,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 122,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 123,
+    "time": 4.1,
+    "sourceTime": 4.1,
+    "phone": {
+      "speed": 2.900933174375498,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 122.99999999999999,
+      "active": "Market",
+      "words": [
+        "Market"
+      ]
+    }
+  },
+  {
+    "frame": 124,
+    "time": 4.133333333333334,
+    "sourceTime": 4.133333333333334,
+    "phone": {
+      "speed": 1.7002704622513722,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 124.00000000000001,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 125,
+    "time": 4.166666666666667,
+    "sourceTime": 4.166666666666667,
+    "phone": {
+      "speed": 2.2949732046237608,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 125.00000000000001,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 126,
+    "time": 4.2,
+    "sourceTime": 4.2,
+    "phone": {
+      "speed": 0.2985701745441963,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 126,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 127,
+    "time": 4.233333333333333,
+    "sourceTime": 4.233333333333333,
+    "phone": {
+      "speed": 0.4908777668536785,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 127,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 128,
+    "time": 4.266666666666667,
+    "sourceTime": 4.266666666666667,
+    "phone": {
+      "speed": 0.5469565600453037,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 128,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 129,
+    "time": 4.3,
+    "sourceTime": 4.3,
+    "phone": {
+      "speed": 0.3402526303254202,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 129,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 130,
+    "time": 4.333333333333333,
+    "sourceTime": 4.333333333333333,
+    "phone": {
+      "speed": 0.8510446651825001,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 130,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 131,
+    "time": 4.366666666666666,
+    "sourceTime": 4.366666666666666,
+    "phone": {
+      "speed": 1.269352270067779,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 131,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 132,
+    "time": 4.4,
+    "sourceTime": 4.4,
+    "phone": {
+      "speed": 2.3448942859444366,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 132,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 133,
+    "time": 4.433333333333334,
+    "sourceTime": 4.433333333333334,
+    "phone": {
+      "speed": 1.6357321111491494,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 133,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 134,
+    "time": 4.466666666666667,
+    "sourceTime": 4.466666666666667,
+    "phone": {
+      "speed": 2.039609253939394,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 134,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 135,
+    "time": 4.5,
+    "sourceTime": 4.5,
+    "phone": {
+      "speed": 1.5060084777123486,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 135,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 136,
+    "time": 4.533333333333333,
+    "sourceTime": 4.533333333333333,
+    "phone": {
+      "speed": 0.22740614138850568,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 136,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 137,
+    "time": 4.566666666666666,
+    "sourceTime": 4.566666666666666,
+    "phone": {
+      "speed": 0.298506539325144,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 137,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 138,
+    "time": 4.6,
+    "sourceTime": 4.6,
+    "phone": {
+      "speed": 2.8573479773195993,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 138,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 139,
+    "time": 4.633333333333334,
+    "sourceTime": 4.633333333333334,
+    "phone": {
+      "speed": 0.5658195740694002,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 139,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 140,
+    "time": 4.666666666666667,
+    "sourceTime": 4.666666666666667,
+    "phone": {
+      "speed": 0.5394084961717749,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 140,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 141,
+    "time": 4.7,
+    "sourceTime": 4.7,
+    "phone": {
+      "speed": 2.35274838735814,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 141,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 142,
+    "time": 4.733333333333333,
+    "sourceTime": 4.733333333333333,
+    "phone": {
+      "speed": 0.30151881801891933,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 142,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 143,
+    "time": 4.766666666666667,
+    "sourceTime": 4.766666666666667,
+    "phone": {
+      "speed": 0.4931745184291051,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 143,
+      "active": "Yemek",
+      "words": [
+        "Yemek"
+      ]
+    }
+  },
+  {
+    "frame": 144,
+    "time": 4.8,
+    "sourceTime": 4.8,
+    "phone": {
+      "speed": 1.4332851101085715,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 144,
+      "active": null,
+      "words": []
+    }
+  },
+  {
+    "frame": 145,
+    "time": 4.833333333333333,
+    "sourceTime": 4.833333333333333,
+    "phone": {
+      "speed": 0.32645521773164515,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 145,
+      "active": "Tüp",
+      "words": [
+        "Tüp"
+      ]
+    }
+  },
+  {
+    "frame": 146,
+    "time": 4.866666666666666,
+    "sourceTime": 4.866666666666666,
+    "phone": {
+      "speed": 3.639083672665446,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 146,
+      "active": "Tüp",
+      "words": [
+        "Tüp"
+      ]
+    }
+  },
+  {
+    "frame": 147,
+    "time": 4.9,
+    "sourceTime": 4.9,
+    "phone": {
+      "speed": 0.19229023236096443,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 147,
+      "active": "Tüp",
+      "words": [
+        "Tüp"
+      ]
+    }
+  },
+  {
+    "frame": 148,
+    "time": 4.933333333333334,
+    "sourceTime": 4.933333333333334,
+    "phone": {
+      "speed": 1.2964201339906556,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 148,
+      "active": "Tüp",
+      "words": [
+        "Tüp"
+      ]
+    }
+  },
+  {
+    "frame": 149,
+    "time": 4.966666666666667,
+    "sourceTime": 4.966666666666667,
+    "phone": {
+      "speed": 0.07955447622249545,
+      "blurSamples": 1,
+      "shutter": 0
+    },
+    "card": {
+      "frame": 149,
+      "active": "Tüp",
+      "words": [
+        "Tüp"
+      ]
+    }
+  }
+]

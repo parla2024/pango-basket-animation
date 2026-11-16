@@ -1,0 +1,11 @@
+{
+  "seconds": 396.51269429699994,
+  "frames": 150,
+  "width": 1080,
+  "height": 1920,
+  "concurrency": 1,
+  "browser": "/usr/bin/chromium",
+  "gpu": "SwiftShader",
+  "includes": "HTTP startup, browser initialization, all frame rendering and H264/AAC encoding",
+  "output": "/workspace/work/pango-remotion-test/results/Pango_Baseline_5s.mp4"
+}

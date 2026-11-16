@@ -1,0 +1,17 @@
+{
+  "frame": 125,
+  "changed_prop": "cardOffsetFrames",
+  "from": 0,
+  "to": 2,
+  "changed_pixels_total": 2186,
+  "changed_pixels_outside_category_roi": 0,
+  "category_roi": [
+    56,
+    970,
+    480,
+    1150
+  ],
+  "default_video_offset": 0,
+  "scope": "Two internal still renders only. Tests parameter isolation, not human editing time. Metadata reselected with inputProps for each probe.",
+  "pass": true
+}

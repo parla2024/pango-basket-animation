@@ -1,0 +1,10 @@
+node_modules/
+.npm-cache/
+build/
+public/
+results/*.png
+results/*.raw
+results/source-hashes-*.json
+results/qa/
+.qa-deps/
+__pycache__/

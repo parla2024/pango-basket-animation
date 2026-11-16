@@ -1,0 +1,20 @@
+{
+  "name": "pango-remotion-isolated-test",
+  "private": true,
+  "scripts": {
+    "test:prepare": "node scripts/prepare.cjs",
+    "render:baseline": "node scripts/render-baseline.cjs",
+    "render:hybrid": "node scripts/render-remotion.cjs",
+    "qa": "python scripts/qa.py",
+    "qa:playback": "node scripts/playback.cjs",
+    "qa:revision": "node scripts/revision-probe.cjs"
+  },
+  "dependencies": {
+    "remotion": "4.0.544",
+    "@remotion/renderer": "4.0.544",
+    "@remotion/bundler": "4.0.544",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "playwright": "1.62.1"
+  }
+}

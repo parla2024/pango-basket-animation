@@ -1,0 +1,9 @@
+{
+  "processingSeconds": 0.30227775199999996,
+  "video_stream_hash_before": "SHA256=64c591ed7886e7f850594a628547baddd4a73304b58daa69c87d5d9913592dcd",
+  "video_stream_hash_after": "SHA256=64c591ed7886e7f850594a628547baddd4a73304b58daa69c87d5d9913592dcd",
+  "video_stream_identical": true,
+  "native_remotion_audio_duration": 5.015011,
+  "final_duration": 5,
+  "method": "Existing FFmpeg path finalizes exact 5-second V13 excerpt from original MP3. Video copied without re-encoding. Native Remotion audio onset had zero lag; only final audio duration needed normalization. Final audio is encoded once from original MP3, not re-encoded from AAC."
+}
