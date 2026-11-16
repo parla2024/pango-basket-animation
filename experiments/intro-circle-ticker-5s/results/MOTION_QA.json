@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "tickerTextWidth": 3415.1484375,
+  "tickerSpeedPxPerSecond": 252.18520220588235,
+  "maxFrameStepErrorPx": 1.3145040611561853e-13,
+  "maxCanvasSvgWidthErrorPx": 0.0078125,
+  "textMatchesUserCopy": true,
+  "tickerScheduleSeconds": [
+    1,
+    18
+  ],
+  "previewSeconds": [
+    0,
+    5
+  ],
+  "fullTextExitAt18Seconds": true,
+  "plannedEndCheckIsMathematicalNotAn18SecondRender": true,
+  "circleFadeEndSeconds": 1.2,
+  "circleEnvelopeSeconds": 1.1333333333333333,
+  "onlyTwoFiveSecondVideosRendered": true
+}

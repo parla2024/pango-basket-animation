@@ -1,0 +1,22 @@
+[
+  {
+    "file": "Pango_Yuvarlak_Giris_5s.mp4",
+    "ended": true,
+    "duration": 5,
+    "width": 1080,
+    "height": 1920,
+    "totalVideoFrames": 150,
+    "droppedVideoFrames": 0,
+    "error": null
+  },
+  {
+    "file": "Pango_Kayan_Yazi_Onizleme_5s.mp4",
+    "ended": true,
+    "duration": 5,
+    "width": 1080,
+    "height": 1920,
+    "totalVideoFrames": 150,
+    "droppedVideoFrames": 0,
+    "error": null
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationInFrames": 150,
+  "circle": {
+    "startFrame": 2,
+    "growthEndFrame": 24,
+    "fadeStartFrame": 25,
+    "endFrame": 36,
+    "center": [
+      675,
+      1080
+    ],
+    "radii": [
+      72,
+      535
+    ],
+    "colors": [
+      "#006EE6",
+      "#8EC6FF",
+      "#FFFFFF"
+    ]
+  },
+  "ticker": {
+    "text": "Pango Basket 1 Aralık'ta Girne'de! Marketten yemeğe, yemekten tüpe, giyimden çiçeğe, çiçekten elektroniğe ve ev yaşam ürünlerine kadar aradığın her şey tek uygulamada. Pango Basket çok yakında!",
+    "startFrame": 30,
+    "endFrame": 540,
+    "lane": {
+      "x": 64,
+      "y": 1556,
+      "width": 872,
+      "height": 72
+    },
+    "fontFamily": "Arial",
+    "fontWeight": 600,
+    "fontSize": 36,
+    "color": "#006EE6",
+    "previewTimelineStartFrame": 0
+  }
+}

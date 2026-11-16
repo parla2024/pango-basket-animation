@@ -1,0 +1,20 @@
+{
+  "label": "circle",
+  "totalSeconds": 63.67317202,
+  "bundleSeconds": 13.162921682,
+  "renderSeconds": 49.17157565,
+  "frames": 150,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "props": {
+    "mode": "circle",
+    "circleEnabled": true
+  },
+  "cacheKey": "2243d5b4bbd352fef32e959829ac2c0e8ad011f4c4358e9b08f381d9ec3a381b",
+  "cacheFilesUnchanged": true,
+  "threeRenderCalls": 0,
+  "webglContextRequests": 0,
+  "concurrency": 1,
+  "includes": "Cache validation, optional uncached bundle, composition selection, full Remotion PNG frame render and same system FFmpeg H264/AAC mux. Phone cache generation excluded."
+}

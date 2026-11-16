@@ -1,0 +1,2 @@
+import React from 'react';import {registerRoot,Composition} from 'remotion';import {PangoTest} from './PangoTest';
+const Root=()=> <><Composition id="PangoCircle5s" component={PangoTest} width={1080} height={1920} fps={30} durationInFrames={150} defaultProps={{mode:'circle',circleEnabled:true}}/><Composition id="PangoTickerPreview5s" component={PangoTest} width={1080} height={1920} fps={30} durationInFrames={150} defaultProps={{mode:'ticker',circleEnabled:false}}/></>;registerRoot(Root);

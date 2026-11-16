@@ -1,0 +1,7 @@
+node_modules/
+public/
+build/
+.npm-cache/
+results/qa/
+results/*.partial.mp4
+__pycache__/

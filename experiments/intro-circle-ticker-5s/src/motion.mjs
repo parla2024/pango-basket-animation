@@ -1,0 +1,4 @@
+export const clamp01=x=>Math.max(0,Math.min(1,x));
+const smooth=x=>{const u=clamp01(x);return u*u*(3-2*u)};
+export function circleState(c,frame){const growth=1-Math.pow(1-clamp01((frame-c.startFrame)/(c.growthEndFrame-c.startFrame)),3);const opacity=smooth((frame-c.startFrame)/5)*(1-smooth((frame-c.fadeStartFrame)/(c.endFrame-c.fadeStartFrame)));return {opacity:frame<c.startFrame||frame>=c.endFrame?0:opacity,radius:c.radii[0]+(c.radii[1]-c.radii[0])*growth,cx:c.center[0],cy:c.center[1]};}
+export function tickerState(c,textWidth,frame,fps=30){const duration=(c.endFrame-c.startFrame)/fps;const speed=(c.lane.width+textWidth)/duration;return {visible:frame>=c.startFrame&&frame<c.endFrame,x:c.lane.x+c.lane.width-speed*(frame-c.startFrame)/fps,speedPxPerSecond:speed,textWidth,startFrame:c.startFrame,endFrame:c.endFrame};}

@@ -1,0 +1,325 @@
+{
+  "protected_production_sources_unchanged": true,
+  "protected_source_hashes": {
+    "phone.js": "588b36d60162144020de0f42102d4a679024daa3e9470e572ef4dcd4a5f804a0",
+    "motion.json": "c43091dc4fb465d32e7861bb39b48206da8b3d3f23d9e9852b234bbc2a451ec6",
+    "screen.png": "6f66655ba502ee0d4e848911af744c9812e55ccc6b200858c3aaf52225be0aec",
+    "graphics.json": "0ad09d2b117ed5e7d000238653d348d75ce60c5549c4522b3cc2aec6fe4d4eeb",
+    "assets/logo.png": "ab1e78b5a6a036389de30aeb57e2d7f969a1078462f317905b7dfaff3bf70548",
+    "assets/background.png": "0bc1152a04aceb39fb16b43b1f0b4f8c06cbbbc6c50ce79945a383fddb2b6c18",
+    "assets/V13_Onayli_Miks.mp3": "837f83e0a9bbc8a601a587e47251e2abe4951b0485c0e9244f92ae21f85ff99b"
+  },
+  "status": "PASSED",
+  "methods": {
+    "circle": {
+      "file": "Pango_Yuvarlak_Giris_5s.mp4",
+      "sha256": "af28af32fd20eaaee5a39db1755f475b945ac29c8c07c42966343343081b2d9b",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "frames": 150,
+      "duration": 5,
+      "audio_AAC_packets_match_approved": true,
+      "audio_packet_hash": "SHA256=d5e5254d4d6bdabd1c539e908c95a1d372e35128d741b35e69582a8473eea511",
+      "decode_errors": 0,
+      "live_3d_calls": 0
+    },
+    "ticker": {
+      "file": "Pango_Kayan_Yazi_Onizleme_5s.mp4",
+      "sha256": "e8c2b1d84778603052d68171211dbbd4fd1427a77082f33a5b997a39c5f5bf7b",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "frames": 150,
+      "duration": 5,
+      "audio_AAC_packets_match_approved": true,
+      "audio_packet_hash": "SHA256=d5e5254d4d6bdabd1c539e908c95a1d372e35128d741b35e69582a8473eea511",
+      "decode_errors": 0,
+      "live_3d_calls": 0
+    }
+  },
+  "circle_raw_pixel_checks": [
+    {
+      "frame": 0,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 0,
+      "whole_frame_identical_after_effect": true
+    },
+    {
+      "frame": 6,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 35981,
+      "changed_outside_circle_disk": 0
+    },
+    {
+      "frame": 9,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 116115,
+      "changed_outside_circle_disk": 0
+    },
+    {
+      "frame": 12,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 125724,
+      "changed_outside_circle_disk": 0
+    },
+    {
+      "frame": 45,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 0,
+      "whole_frame_identical_after_effect": true
+    },
+    {
+      "frame": 75,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 0,
+      "whole_frame_identical_after_effect": true
+    },
+    {
+      "frame": 99,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 0,
+      "whole_frame_identical_after_effect": true
+    },
+    {
+      "frame": 105,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 0,
+      "whole_frame_identical_after_effect": true
+    },
+    {
+      "frame": 124,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 0,
+      "whole_frame_identical_after_effect": true
+    },
+    {
+      "frame": 125,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 0,
+      "whole_frame_identical_after_effect": true
+    },
+    {
+      "frame": 126,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 0,
+      "whole_frame_identical_after_effect": true
+    },
+    {
+      "frame": 144,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 0,
+      "whole_frame_identical_after_effect": true
+    },
+    {
+      "frame": 145,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 0,
+      "whole_frame_identical_after_effect": true
+    },
+    {
+      "frame": 147,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 0,
+      "whole_frame_identical_after_effect": true
+    },
+    {
+      "frame": 149,
+      "opaque_phone_changed_pixels": 0,
+      "logo_region_changed_pixels": 0,
+      "total_changed_pixels": 0,
+      "whole_frame_identical_after_effect": true
+    }
+  ],
+  "ticker_preview_checks": [
+    {
+      "frame": 0,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 105,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 12,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 120,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": false
+    },
+    {
+      "frame": 124,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 125,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 126,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 144,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 145,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 147,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 149,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 24,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": false
+    },
+    {
+      "frame": 25,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": false
+    },
+    {
+      "frame": 29,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": false
+    },
+    {
+      "frame": 30,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": false
+    },
+    {
+      "frame": 31,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": false
+    },
+    {
+      "frame": 35,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": false
+    },
+    {
+      "frame": 36,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": false
+    },
+    {
+      "frame": 37,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": false
+    },
+    {
+      "frame": 45,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 6,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 60,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": false
+    },
+    {
+      "frame": 75,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 9,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    },
+    {
+      "frame": 90,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": false
+    },
+    {
+      "frame": 99,
+      "outside_footer_and_logo_changed_pixels": 0,
+      "original_logo_animation_verified": true
+    }
+  ],
+  "phone_cache_150_frames_unchanged": true,
+  "cacheKey": "2243d5b4bbd352fef32e959829ac2c0e8ad011f4c4358e9b08f381d9ec3a381b",
+  "circle_duration_seconds": 1.1333333333333333,
+  "ticker_text_exact": "Pango Basket 1 Aralık'ta Girne'de! Marketten yemeğe, yemekten tüpe, giyimden çiçeğe, çiçekten elektroniğe ve ev yaşam ürünlerine kadar aradığın her şey tek uygulamada. Pango Basket çok yakında!",
+  "ticker_schedule_seconds": [
+    1,
+    18
+  ],
+  "preview_rendered_seconds": [
+    0,
+    5
+  ],
+  "footer_safe_margins_px": {
+    "left": 64,
+    "right": 144,
+    "bottom": 292
+  },
+  "scope": "Circle integrated in original 5s; ticker is an independent footer-only visual preview. Full 1–18s integration and 22s main video not rendered.",
+  "playback": [
+    {
+      "file": "Pango_Yuvarlak_Giris_5s.mp4",
+      "ended": true,
+      "duration": 5,
+      "width": 1080,
+      "height": 1920,
+      "totalVideoFrames": 150,
+      "droppedVideoFrames": 0,
+      "error": null
+    },
+    {
+      "file": "Pango_Kayan_Yazi_Onizleme_5s.mp4",
+      "ended": true,
+      "duration": 5,
+      "width": 1080,
+      "height": 1920,
+      "totalVideoFrames": 150,
+      "droppedVideoFrames": 0,
+      "error": null
+    }
+  ],
+  "footer_header_comparison_scope": "Original upper logo/header compared outside source phone alpha matte; phone intentionally absent in independent footer preview."
+}
