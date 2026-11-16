@@ -11,9 +11,14 @@ export async function makeProPhone(renderer){
  body(2.10,4.52,.308,.232,0,titanium,.012);
  body(2.068,4.486,.296,.014,-.125,ceramic,.007);
  body(2.104,4.524,.310,.010,.122,chamfer,.004);
- body(2.078,4.498,.299,.016,.135,black,.005);
+ // Real bezel ring: the app is behind this front lip, not pasted above it.
+ const bezelShape=roundRect(2.078,4.498,.299);const aperture=roundRect(1.997,1.997*1536/691,.244);bezelShape.holes.push(new T.Path(aperture.getPoints(128)));
+ const bezelGeo=new T.ExtrudeGeometry(bezelShape,{depth:.016,steps:1,bevelEnabled:true,bevelThickness:.005,bevelSize:.005,bevelSegments:5,curveSegments:32});bezelGeo.translate(0,0,.127);const bezel=new T.Mesh(bezelGeo,black);bezel.name='Physical bezel, open center';phone.add(bezel);
+ const glassBack=new T.Mesh(new T.ShapeGeometry(roundRect(1.997,1.997*1536/691,.244),48),new T.MeshBasicMaterial({color:0x020305,toneMapped:false}));glassBack.position.z=.134;glassBack.renderOrder=-20;phone.add(glassBack);
  const tex=await new T.TextureLoader().loadAsync('./screen.png');tex.colorSpace=T.SRGBColorSpace;tex.anisotropy=renderer.capabilities.getMaxAnisotropy();
- const sw=1.997,sh=sw*1536/691;const g=new T.ShapeGeometry(roundRect(sw,sh,.244),48);for(let i=0;i<g.attributes.position.count;i++){g.attributes.uv.setXY(i,g.attributes.position.getX(i)/sw+.5,g.attributes.position.getY(i)/sh+.5);}const display=new T.Mesh(g,new T.MeshBasicMaterial({map:tex,toneMapped:false}));display.position.z=.153;display.name='Unmodified original Pango screenshot';phone.add(display);
+ const sh=1.997*1536/691,ih=4.12,iw=ih*691/1536,iy=-.07,iz=.138;
+ const g=new T.PlaneGeometry(iw,ih);const display=new T.Mesh(g,new T.MeshBasicMaterial({map:tex,toneMapped:false}));display.position.set(0,iy,iz);display.renderOrder=-10;display.name='Original Pango UI — aspect-preserving contained glass viewport';phone.add(display);
+ phone.userData.screen={width:iw,height:ih,centerY:iy,z:iz,sourceWidth:691,sourceHeight:1536,sourceAspect:691/1536,viewportAspect:iw/ih,cornerPolicy:'All original screenshot pixels retained; camera island is outside the app viewport.'};phone.userData.display=display;
  const island=body(.43,.112,.056,.006,.164,black,.002);island.position.y=sh/2-.126;
  const cameraGlass=new T.MeshPhysicalMaterial({color:0x142333,metalness:.65,roughness:.12,clearcoat:1});
  const frontLens=new T.Mesh(new T.CircleGeometry(.022,32),cameraGlass);frontLens.position.set(.149,sh/2-.126,.171);phone.add(frontLens);

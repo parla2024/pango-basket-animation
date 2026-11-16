@@ -1,0 +1,11 @@
+{
+  "name": "pango-basket-scene1",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "render": "node render.cjs"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  }
+}

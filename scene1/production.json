@@ -1,0 +1,114 @@
+{
+  "fps": 30,
+  "duration": 20.5,
+  "audio_duration": 20.48,
+  "categories": [
+    {
+      "label": "Market",
+      "asr_start": 3.26,
+      "acoustic_lower": 3.285,
+      "acoustic_upper": 3.3000000000000003,
+      "start_frame": 99,
+      "start_seconds": 3.3,
+      "rule": "first nontransparent pixel is gated at/after acoustic onset upper bound",
+      "end_frame": 124
+    },
+    {
+      "label": "Yemek",
+      "asr_start": 4.22,
+      "acoustic_lower": 4.135,
+      "acoustic_upper": 4.1499999999999995,
+      "start_frame": 125,
+      "start_seconds": 4.166666666666667,
+      "rule": "first nontransparent pixel is gated at/after acoustic onset upper bound",
+      "end_frame": 144
+    },
+    {
+      "label": "Tüp",
+      "asr_start": 4.86,
+      "acoustic_lower": 4.815,
+      "acoustic_upper": 4.83,
+      "start_frame": 145,
+      "start_seconds": 4.833333333333333,
+      "rule": "first nontransparent pixel is gated at/after acoustic onset upper bound",
+      "end_frame": 159
+    },
+    {
+      "label": "Su",
+      "asr_start": 5.32,
+      "acoustic_lower": 5.3,
+      "acoustic_upper": 5.3149999999999995,
+      "start_frame": 160,
+      "start_seconds": 5.333333333333333,
+      "rule": "first nontransparent pixel is gated at/after acoustic onset upper bound",
+      "end_frame": 175
+    },
+    {
+      "label": "Çiçek",
+      "asr_start": 5.9,
+      "acoustic_lower": 5.85,
+      "acoustic_upper": 5.864999999999999,
+      "start_frame": 176,
+      "start_seconds": 5.866666666666666,
+      "rule": "first nontransparent pixel is gated at/after acoustic onset upper bound",
+      "end_frame": 188
+    },
+    {
+      "label": "ve daha fazlası",
+      "asr_start": 6.26,
+      "start_frame": 189,
+      "start_seconds": 6.3,
+      "words": [
+        {
+          "label": "ve",
+          "frame": 189,
+          "source_onset": 6.26
+        },
+        {
+          "label": "daha",
+          "frame": 195,
+          "source_onset": 6.48
+        },
+        {
+          "label": "fazlası",
+          "frame": 204,
+          "source_onset": 6.76
+        }
+      ],
+      "end_frame": 223
+    }
+  ],
+  "closing_words": [
+    {
+      "label": "tek",
+      "frame": 224,
+      "source_onset": 7.44
+    },
+    {
+      "label": "uygulamada",
+      "frame": 233,
+      "source_onset": 7.72
+    }
+  ],
+  "cards_end_frame": 253,
+  "tagline_restore_frame": 259,
+  "brand_blue": [
+    0,
+    110,
+    230
+  ],
+  "background": {
+    "white_ratio": 0.5963980516975309,
+    "blue_ratio": 0.35,
+    "pale_ratio": 0.053601948302469116,
+    "white_end_y": 1152,
+    "blue_end_y": 1824,
+    "pale_rgb": [
+      245,
+      249,
+      253
+    ]
+  },
+  "sync_basis": "Small-model Turkish alignment, checked against 15ms RMS onset in the unchanged V13 voice/FX stem; no audio retiming.",
+  "one_frame_transition_guard": true
+}

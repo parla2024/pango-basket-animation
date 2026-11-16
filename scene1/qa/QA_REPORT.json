@@ -1,0 +1,264 @@
+{
+  "status": "CONTROLLED_TEST_TECHNICAL_QA_PASSED",
+  "scope": "Only phone UI containment, category/audio timing and corporate background revised. User explicitly selected original 10340.mp4 phone timing. No new scene or mix.",
+  "reference": "10340.mp4, 720x1280, 30fps, 155 frames, 5.166667 seconds",
+  "output": {
+    "filename": "Pango_Basket_Production_Kontrol.mp4",
+    "sha256": "cfce915902ed292c6525b90568856ba217e269a4d6a7e9c3e63b26e5092be0d1",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": "615",
+    "video_duration": "20.500000",
+    "audio_duration": "20.480000",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "full_decode_errors": 0
+  },
+  "source_checks": {
+    "source_jpg_sha256": "6e42775597e90c19851a458f1310cf1303be817c7e77efaf88f4e98dc6a1acd8",
+    "screen_png_sha256": "6f66655ba502ee0d4e848911af744c9812e55ccc6b200858c3aaf52225be0aec",
+    "decoded_pixels_exact_match": true,
+    "source_dimensions": [
+      691,
+      1536
+    ],
+    "original_logo_asset_exact_match": true,
+    "motion_sha256": "c43091dc4fb465d32e7861bb39b48206da8b3d3f23d9e9852b234bbc2a451ec6",
+    "graphics_config_exact_match_previous": true
+  },
+  "geometry": {
+    "frame_count": 155,
+    "corners_outside_phone": 0,
+    "min_margin_px": 2.9886411707144243,
+    "method": "Projected real screenshot viewport corners tested against the tracked outer-body quad on every reference frame.",
+    "limitation": "Tests containment, not a claim of identical physical industrial design.",
+    "hardware_overlapping_screen_frames": 0,
+    "max_hardware_screen_intersection_area_pixels": 0.0,
+    "hardware_check": "Projected island hull tested against original app viewport each reference frame."
+  },
+  "motion": {
+    "timing": "original reference timestamps, no retiming",
+    "comparison_frame_count": 153,
+    "median_body_quad_error_reference_px": 0.002505646569643002,
+    "max_body_quad_error_reference_px": 0.01769121791477273,
+    "note": "Body-quad reprojection error only; not a guarantee of identical lens/model or source tracking ground truth. First mostly offscreen frame is inferred. Source tracking is unavailable at 5.3s."
+  },
+  "audio": {
+    "source_sha256": "837f83e0a9bbc8a601a587e47251e2abe4951b0485c0e9244f92ae21f85ff99b",
+    "source_decoded_samples": 903168,
+    "output_decoded_samples": 903168,
+    "source_seconds": 20.48,
+    "correlation": 0.9987453173895634,
+    "lag_samples": 0,
+    "estimated_gain": 0.9946931600570679,
+    "note": "Full original V13 MP3, no mix/EQ/gain/retiming edits. Encoded once to AAC for required MP4 format; not bit-identical audio."
+  },
+  "category_source_onsets_and_frames": [
+    {
+      "label": "Market",
+      "asr_start": 3.26,
+      "acoustic_lower": 3.285,
+      "acoustic_upper": 3.3000000000000003,
+      "start_frame": 99,
+      "start_seconds": 3.3,
+      "rule": "first nontransparent pixel is gated at/after acoustic onset upper bound",
+      "end_frame": 124
+    },
+    {
+      "label": "Yemek",
+      "asr_start": 4.22,
+      "acoustic_lower": 4.135,
+      "acoustic_upper": 4.1499999999999995,
+      "start_frame": 125,
+      "start_seconds": 4.166666666666667,
+      "rule": "first nontransparent pixel is gated at/after acoustic onset upper bound",
+      "end_frame": 144
+    },
+    {
+      "label": "Tüp",
+      "asr_start": 4.86,
+      "acoustic_lower": 4.815,
+      "acoustic_upper": 4.83,
+      "start_frame": 145,
+      "start_seconds": 4.833333333333333,
+      "rule": "first nontransparent pixel is gated at/after acoustic onset upper bound",
+      "end_frame": 159
+    },
+    {
+      "label": "Su",
+      "asr_start": 5.32,
+      "acoustic_lower": 5.3,
+      "acoustic_upper": 5.3149999999999995,
+      "start_frame": 160,
+      "start_seconds": 5.333333333333333,
+      "rule": "first nontransparent pixel is gated at/after acoustic onset upper bound",
+      "end_frame": 175
+    },
+    {
+      "label": "Çiçek",
+      "asr_start": 5.9,
+      "acoustic_lower": 5.85,
+      "acoustic_upper": 5.864999999999999,
+      "start_frame": 176,
+      "start_seconds": 5.866666666666666,
+      "rule": "first nontransparent pixel is gated at/after acoustic onset upper bound",
+      "end_frame": 188
+    },
+    {
+      "label": "ve daha fazlası",
+      "asr_start": 6.26,
+      "start_frame": 189,
+      "start_seconds": 6.3,
+      "words": [
+        {
+          "label": "ve",
+          "frame": 189,
+          "source_onset": 6.26
+        },
+        {
+          "label": "daha",
+          "frame": 195,
+          "source_onset": 6.48
+        },
+        {
+          "label": "fazlası",
+          "frame": 204,
+          "source_onset": 6.76
+        }
+      ],
+      "end_frame": 223
+    }
+  ],
+  "category_first_visible_pixels": {
+    "firstVisibleFrames": {
+      "Market": 99,
+      "Yemek": 125,
+      "Tüp": 145,
+      "Su": 160,
+      "Çiçek": 176,
+      "ve daha fazlası": 189,
+      "tek uygulamada": 224
+    },
+    "earlyCardFrames": [],
+    "screen": {
+      "width": 1.8534635416666667,
+      "height": 4.12,
+      "centerY": -0.07,
+      "z": 0.138,
+      "sourceWidth": 691,
+      "sourceHeight": 1536,
+      "sourceAspect": 0.4498697916666667,
+      "viewportAspect": 0.4498697916666667,
+      "cornerPolicy": "All original screenshot pixels retained; camera island is outside the app viewport."
+    },
+    "bezelTopZ": 0.148,
+    "cardCount": 6
+  },
+  "encoded_category_boundaries": {
+    "first_word_pixels": {
+      "99": 1534,
+      "125": 1258,
+      "145": 605,
+      "160": 585,
+      "176": 1109,
+      "189": 116,
+      "224": 241
+    },
+    "blank_transition_guard_pixels": {
+      "124": 0,
+      "144": 0,
+      "159": 0,
+      "175": 0,
+      "188": 0,
+      "223": 0
+    },
+    "method": "Actual encoded MP4 crop, blue-letter pixel threshold inside white text area; phone and blue footer excluded. Paired with exact first-alpha layer audit and event timeline.",
+    "pass": true
+  },
+  "background_asset_ratios": {
+    "white_ratio": 0.5963980516975309,
+    "blue_ratio": 0.35,
+    "pale_ratio": 0.053601948302469116,
+    "white_end_y": 1152,
+    "blue_end_y": 1824,
+    "pale_rgb": [
+      245,
+      249,
+      253
+    ]
+  },
+  "brand_blue": "#006EE6",
+  "encoded_screen_comparison": [
+    {
+      "time": 0.4,
+      "ssim": 0.9678461817505628,
+      "aspect_ratio_error": 0,
+      "method": "Inverse-project encoded viewport with actual render camera to original UI; compare excluding 8px edge. Includes texture sampling and video compression.",
+      "limitation": "0.4s phone is partly outside canvas, matching source framing."
+    },
+    {
+      "time": 1.5,
+      "ssim": 0.9717350450792707,
+      "aspect_ratio_error": 0,
+      "method": "Inverse-project encoded viewport with actual render camera to original UI; compare excluding 8px edge. Includes texture sampling and video compression.",
+      "limitation": null
+    },
+    {
+      "time": 2.5,
+      "ssim": 0.9702468144465003,
+      "aspect_ratio_error": 0,
+      "method": "Inverse-project encoded viewport with actual render camera to original UI; compare excluding 8px edge. Includes texture sampling and video compression.",
+      "limitation": null
+    },
+    {
+      "time": 3.5,
+      "ssim": 0.971927120212738,
+      "aspect_ratio_error": 0,
+      "method": "Inverse-project encoded viewport with actual render camera to original UI; compare excluding 8px edge. Includes texture sampling and video compression.",
+      "limitation": null
+    },
+    {
+      "time": 4.2,
+      "ssim": 0.9716424947201809,
+      "aspect_ratio_error": 0,
+      "method": "Inverse-project encoded viewport with actual render camera to original UI; compare excluding 8px edge. Includes texture sampling and video compression.",
+      "limitation": null
+    },
+    {
+      "time": 5.3,
+      "ssim": 0.9715712051621925,
+      "aspect_ratio_error": 0,
+      "method": "Inverse-project encoded viewport with actual render camera to original UI; compare excluding 8px edge. Includes texture sampling and video compression.",
+      "limitation": null
+    }
+  ],
+  "browser_playback": {
+    "supported": "probably",
+    "ended": true,
+    "duration": 20.5,
+    "width": 1080,
+    "height": 1920,
+    "error": null,
+    "quality": {
+      "totalVideoFrames": 615,
+      "droppedVideoFrames": 2
+    }
+  },
+  "comparison_times": [
+    0.4,
+    1.5,
+    2.5,
+    3.5,
+    4.2,
+    5.3
+  ],
+  "limitations": [
+    "Reference has no 5.3-second frame. Comparison marks it unavailable; no fabricated or repeated source frame.",
+    "First mostly-offscreen pose is inferred. Body-quad tracking measures projected movement, not identical lens/industrial design or aesthetic quality.",
+    "Source UI resolution is 691x1536. All original pixels retained; phone naturally extends outside canvas early in entry.",
+    "Full V13 is 20.48 seconds, so output lasts 20.5 seconds. After source movement ends, final phone pose holds; other scenes are not generated.",
+    "Audio encoded once from original MP3 to required AAC; waveform/timing verified, not a bit-identical stream copy.",
+    "Technical QA pass is not a claim of identical physical design or agency-level aesthetic quality."
+  ]
+}

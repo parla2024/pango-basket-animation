@@ -1,37 +1,26 @@
 {
   "fps": 30,
-  "duration": 3.2,
+  "duration": 20.5,
+  "audio_duration": 20.48,
   "width": 1080,
   "height": 1920,
-  "pullback_reference_frames": [
-    68,
-    88
-  ],
-  "word_frames": {
+  "frame_count": 615,
+  "audio_source_name": "V13_Onayli_Miks.mp3",
+  "audio_source_sha256": "837f83e0a9bbc8a601a587e47251e2abe4951b0485c0e9244f92ae21f85ff99b",
+  "audio_usage": "Full unchanged original V13 mix, encoded once to AAC for MP4. No trim, mix, level, EQ, or speed edit.",
+  "voice_cue_frames": {
+    "Pango": 18,
+    "Basket": 28,
     "Çok": 49,
     "yakında": 55,
     "Girne’de!": 70
   },
-  "audio_source_name": "pango reklam müziği.mp3",
-  "audio_source_sha256": "837f83e0a9bbc8a601a587e47251e2abe4951b0485c0e9244f92ae21f85ff99b",
-  "audio_usage": "AAC stream copied unchanged from the user-uploaded Pango_Basket_Motion_Revizyon.mp4.",
-  "brand_cue_frames": {
-    "Pango": 18,
-    "Basket": 28
-  },
-  "pullback_frames": [
-    23,
-    42
-  ],
-  "entry_land_frame": 18,
-  "output": "output/Pango_Basket_Ust_Logo_Revizyon.mp4",
-  "entry_end_s": 0.6,
-  "single_pause_s": 0.15,
-  "pullback_s": [
-    0.75,
-    1.4
-  ],
-  "text_placement": "Approved slogan remains to the left of the phone.",
-  "motion_source": "Earlier Pango_Basket_Giris_Geri_Cekilme_Test.mp4 / reference-tracked path, retimed to remove long pause.",
-  "logo_placement": "Top, x about 80px / y about 150px. Only vertical logo placement changed."
+  "category_timing": "production.json",
+  "output": "output/Pango_Basket_Production_Kontrol.mp4",
+  "motion_source": "Original 10340.mp4, original timestamps, explicitly chosen by user. No short-pause retiming.",
+  "motion_sha256": "c43091dc4fb465d32e7861bb39b48206da8b3d3f23d9e9852b234bbc2a451ec6",
+  "reference_end_s": 5.166666666666667,
+  "reference_last_frame_s": 5.133333333333334,
+  "after_reference": "Hold last phone pose; preserve full V13, no other scenes.",
+  "text_placement": "Original upper logo and left-hand slogan positions preserved."
 }
